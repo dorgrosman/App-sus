@@ -21,9 +21,9 @@ export default {
     created() {
         eventBus.$on('show-msg', msg => {
             this.msg = msg
-            // setTimeout(() => {
-            //     this.msg = null;
-            // }, 3000);
+            setTimeout(() => {
+                this.msg = null;
+            }, 3000);
         })
 
     }

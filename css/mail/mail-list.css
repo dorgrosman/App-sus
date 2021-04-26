@@ -103,14 +103,13 @@
 }
 
 @media(max-width: 1135px) {
+    
     .mail-preview {
         width: 650px;
-        /* height: 100px; */
     }
     .mail-preview .longTxt {
         font-size: 18px;
         width: 250px;
-        /* padding-left: 1px; */
     }
     .mail-preview .itemsub {
         font-size: 18px;
@@ -128,17 +127,17 @@
     }
 }
 
-@media(max-width: 970px) {
+@media(max-width: 1050px) {
+    .side-bar{
+        height: 120px;
+        width: 100%;
+        padding-left: 10px;
+    }
     .mail-app{
         flex-direction: column;
     }
     .card nav {
         flex-direction: column;
-    }
-    .side-bar{
-        height: 120px;
-        width: 100%;
-        padding-left: 10px;
     }
     .side-bar .nav-icons {
         flex-direction: row;
@@ -158,13 +157,18 @@
     }
     .longTxt {
         font-size: 13px;
+        display: none;
     }
+    
 }
 
 @media(max-width: 670px) {
     .list ul {
         padding-left: 0;
     }
+    .longTxt {
+        display: none;
+     }
 }
 
 @media(max-width: 610px) {
@@ -182,6 +186,7 @@
         padding: 0;
         margin-right: 0;
     }
+    
 }
 
 @media(max-width: 550px) {

@@ -148,3 +148,8 @@ textarea {
         height: 450px;
     }
 }
+@media(max-width: 600px) {
+    .main-add {
+        width: 355px;
+    }
+}

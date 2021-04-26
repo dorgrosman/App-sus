@@ -4,7 +4,7 @@ export default {
     <section class="home-page ">
 
             <section class="home-page-container flex"> 
-            
+                
                 <div class="home-page-img-container flex space-between ">
 
                    <div class="image-container-home"> 

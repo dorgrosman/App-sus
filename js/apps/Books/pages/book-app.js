@@ -13,7 +13,7 @@ export default {
     
        
         <book-filter @filtered="setFilter"></book-filter>
-        <h2 class="book-main-title">Miss Books</h2>
+        <h2 class="book-main-title">Books</h2>
         <book-list v-if="!selectedBook" :books="booksToShow" @selected="selectBook"></book-list>
         <book-details v-else :book="selectedBook" @selected="selectBook"></book-details>
 

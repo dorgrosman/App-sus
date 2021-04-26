@@ -6,7 +6,7 @@ export default {
     <section class="mail-detail flex justify-center column">
         <div class="main-container">
             <header class="head-mail ">
-            <h2>Send by: {{mail.user}}</h2>
+            <h2>Sent by: {{mail.user}}</h2>
             <h3>subject: {{mail.subject}} </h3>
             <h4 class="date">At:{{mail.sentAt}}</h4>
             </header>

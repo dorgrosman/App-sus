@@ -1,0 +1,77 @@
+.book-details {
+    background-position: center;
+   border: 2px solid white;
+    /* width: 900px; */
+    /* text-align: center; */
+    height: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    /* font-weight: bold; */
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+.book-details-container {
+    margin-left: 10px;
+}
+
+.book-details-container >* {
+    margin: 0;
+    height: 400px;
+}
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.back-btn {
+    width: 100px;
+    border-radius: 15px;
+}
+
+.title-style {
+    font-weight: bold;
+}
+.sale-img {
+    width: 200px;
+    height: 130px;
+    position: absolute;
+    right: 20px;
+    bottom: 350px;
+}
+button.back-btn {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    width: 50px;
+}
+button.next-btn {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    border-radius: 15px;
+}
+button.prev-btn {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    border-radius: 15px;
+}
+
+@media (max-width: 550px) {
+
+   
+.book-details-img-container img{
+    height: 200px;
+    width: 160px;
+}
+h2.book-main-title {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+}

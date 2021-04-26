@@ -1,0 +1,150 @@
+/* .main-add {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    z-index: 5;
+    position: fixed;
+    bottom: 0;
+    right: 3rem;
+    width: 450px;
+    height: 480px;
+    box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.07), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+} */
+.main-add {
+    position: fixed;
+    bottom: 0px;
+    left: 30px;
+    border: 1px solid rgb(51, 51, 51);
+    color: rgb(82, 82, 82);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0px;
+    z-index: 1;
+    background-color: rgb(240, 240, 240);
+    width: 480px;
+}
+
+/* .main-add label{
+    padding: 0px 10px;
+    border-bottom: rgb(221, 221, 221) 0.5px solid;
+} */
+
+
+.main-add .title-add {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(51, 50, 50, 0.467);
+    background-color: rgb(49, 49, 49);
+}
+.main-add h3 {
+    margin: 0;
+    color: rgb(226, 226, 226);
+    padding: 5px;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.main-add input {
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    font-size: 1.1em;
+    background-color: rgb(240, 240, 240);
+}
+.main-add p {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    /* font-size: 1em; */
+}
+
+.main-add label{
+    padding: 0px 10px;
+    border-bottom: rgb(221, 221, 221) 1px solid;
+    height: 48px;
+}
+button {
+    line-height: 15px;
+    border: 0;
+}
+
+/* .main-add input {
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    font-size: 1.1em;
+} */
+.main-add .new-email-header {
+    background-color: rgb(37, 37, 37);
+    padding: 10px;
+    box-sizing: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main-add .new-email-header button{
+    background-color: transparent;
+    color: rgb(194, 194, 194);
+    font-size: 1.1em;
+}
+
+
+
+/* textarea {
+    margin: 15px;
+    width: 90%;
+    justify-content: center;
+} */
+textarea {
+    border: none;
+    outline: none;
+    width: 95%;
+    resize: none;
+    padding: 15px;
+    font-size: 1.05em;
+    font-family: sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+
+.main-add .fa-share-square {
+    font-size: 30px;
+    cursor: pointer;
+}
+.main-add .compose-btn {
+    color: rgb(90, 90, 90);
+    font-size: 30px;
+    margin: 5px;
+   
+}
+.main-add .compose-btn:hover {
+    color: rgb(51, 51, 51);
+}
+
+.main-add .fa-paper-plane:hover {
+    color: rgb(134, 174, 248);
+}
+.main-add-buttons{
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media(max-width: 1100px) {
+    .main-add {
+        width: 398px;
+        height: 450px;
+    }
+}

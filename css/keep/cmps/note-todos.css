@@ -1,0 +1,13 @@
+.striked {
+    text-decoration: line-through; 
+}
+
+div.todo {
+    text-align: left;
+}
+
+.done-todo,
+.undone-todo {
+    margin-right: 10px;
+    margin-left: 5px;
+}

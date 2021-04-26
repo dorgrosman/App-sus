@@ -1,0 +1,214 @@
+/*mail page*/
+
+.main-container {
+  width: 80vw;
+  height: 80vh;
+  border: 2px solid rgb(49, 48, 48);
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.head-mail {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  border-bottom: 2px solid rgb(49, 48, 48);
+}
+.readMore{
+  display: none;
+}
+.date {
+  padding-right: 15px;
+}
+
+.main-mail {
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+}
+
+.footer-mail {
+  padding-bottom: 10px;
+}
+
+.footer-mail {
+  justify-content: space-around
+}
+
+.footer-mail .inbox-icon {
+  height: 40px;
+  font-size: 38px;
+  cursor: pointer;
+}
+
+.footer-mail .del-icon {
+  height: 40px;
+  font-size: 38px;
+  cursor: pointer;
+}
+
+.footer-mail .next-icon {
+  height: 40px;
+  font-size: 38px;
+  cursor: pointer;
+}
+
+.footer-mail .back-icon {
+  height: 40px;
+  font-size: 38px;
+  cursor: pointer;
+}
+
+/*filter*/
+
+.mail-filter form input {
+  background-color: white;
+  background-position: 10px 10px;
+  height: 30px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.mail-filter input{
+  border-radius: 30px;
+  height: 35px;
+  width: 250px;
+  padding-left: 12px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mail-filter select {
+  height: 30px;
+}
+
+.filter-read {
+  padding-left: 30px;
+}
+
+.mail-filter button {
+  width: 120px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.containerChack {
+  padding-right: 20px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.containerChack input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.containerChack:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+.containerChack input:checked~.checkmark {
+  background-color: #1AA380;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.containerChack input:checked~.checkmark:after {
+  display: block;
+}
+
+.containerChack .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+@media(max-width: 1100px) {
+  .main-mail {
+    width: 550px;
+    height: 350px;
+  }
+  .main-container {
+    /* width: 600px; */
+    width: 80vw;
+    height: 80vh;
+  }
+}
+
+@media(max-width: 750px) {
+  .main-mail {
+    font-size: 16px;
+    width: 350px;
+    height: 280px;
+    padding-bottom: 0;
+  }
+  .main-container {
+    width: 400px;
+    /* height: 400px; */
+  }
+  .head-mail {
+    font-size: 14px;
+  }
+  .head-mail h2 {
+    font-size: 18px;
+  }
+  .mail-filter {
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+  .mail-filter label {
+    /* padding: 20px; */
+    height: 60px;
+  }
+  .mail-filter input {
+    height: 30px;
+    width: 300px;
+  }
+  .filter-read{
+    padding-left: 5px;
+  }
+}
+@media(max-width: 450px) {
+  .mail-filter input {
+    height: 30px;
+   
+  }
+  .readMore{
+    display: block;
+    background: #525252;
+    border: 0;
+    padding-top: 15px;
+    font-size: 20px;
+    color: white;
+  }
+}

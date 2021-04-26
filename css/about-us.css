@@ -1,0 +1,28 @@
+.about-page-title {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-family: Kaushan;
+
+}
+.about-page-img-container {
+    margin: 0 auto;
+}
+
+.about-page-img {
+    width: 400px;
+    margin-left: 20px;
+    height: 600px;
+}
+
+.about-page-text-container{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 20px;
+    text-align: center;
+    line-height:2;
+    font-size:30px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    /* width: 700px; */
+    height: 600px;
+}

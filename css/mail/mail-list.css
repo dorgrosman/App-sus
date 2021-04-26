@@ -1,0 +1,205 @@
+.side-bar {
+    width: 250px;
+    height: 100vh;
+    background-image: linear-gradient( 90deg, rgb(65, 65, 65), rgb(75, 75, 75));
+}
+
+/*list*/
+
+.mail-list {
+    justify-content: center;
+    font-size: 20px;
+}
+
+.mail-list li {
+    list-style: none;
+}
+
+.mail-list span {
+    width: 30px;
+    cursor: pointer;
+}
+
+/* Preview*/
+
+.mail-preview {
+    background-color: #373b3f;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1500px;
+    border: 1px solid rgb(155, 146, 146);
+    margin-bottom: 1.5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.mail-preview:hover {
+    transform: scale(1.02);
+}
+
+.itemsub {
+    padding-left: 10px;
+    width: 100px;
+}
+
+.longcheck {
+    width: 30px;
+    height: 30px;
+}
+
+.starActiv {
+    color: #E8C547;
+    font-size: 25px;
+}
+
+.delIcon {
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+.itemuser {
+    font-size: 16px;
+    width: 130px;
+}
+
+.longTxt {
+    width: 300px;
+}
+
+.mailRead {
+    background-color: rgb(97, 93, 93);
+}
+
+.mailUnRead {
+    background-color: rgba(rgb(241, 204, 204), rgb(242, 250, 171), rgb(143, 143, 229), 0.01);
+}
+
+.mail-preview img {
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+}
+
+.mail-preview button {
+    z-index: 3;
+    left: 0;
+}
+
+@media(max-width: 1727px) {
+    .mail-preview {
+        width: 1100px;
+    }
+}
+
+/* ////flex-direction: unset; */
+
+@media(max-width: 1422px) {
+    .mail-preview {
+        width: 800px;
+    }
+
+}
+
+@media(max-width: 1135px) {
+    .mail-preview {
+        width: 650px;
+        /* height: 100px; */
+    }
+    .mail-preview .longTxt {
+        font-size: 18px;
+        width: 250px;
+        /* padding-left: 1px; */
+    }
+    .mail-preview .itemsub {
+        font-size: 18px;
+        width: 70px;
+        padding-left: 3px;
+    }
+    .mail-preview .itemuser {
+        width: 100px
+    }
+    .mail-preview .longdate {
+        font-size: 15px;
+    }
+    .mail-preview .delIcon {
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 970px) {
+    .mail-app{
+        flex-direction: column;
+    }
+    .card nav {
+        flex-direction: column;
+    }
+    .side-bar{
+        height: 120px;
+        width: 100%;
+        padding-left: 10px;
+    }
+    .side-bar .nav-icons {
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .mail-list {
+        font-size: 16px;
+    }
+    .longTxt {
+        width: 150px;
+        margin-left: 10px;
+    }
+    .mail-preview {
+        height: 60PX;
+        width: 550px;
+    }
+    .longTxt {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 670px) {
+    .list ul {
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 610px) {
+    .mail-preview {
+        width: 550px;
+    }
+    .list ul {
+        padding-left: 0;
+    }
+    .itemsub {
+        padding-left: 0;
+        font-size: 20px;
+    }
+    .delIcon {
+        padding: 0;
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 550px) {
+    .mail-preview {
+        width: 435px;
+    }
+    .longTxt {
+        display: none;
+     }
+     .side-bar .nav-icons{
+        padding-left: 15px;
+     }
+}
+@media(max-width: 450px) {
+    .mail-preview {
+        width: 375px;
+    }
+}
+
+
+

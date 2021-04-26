@@ -1,0 +1,33 @@
+.user-msg {
+    font-size: 1.3rem;
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    width: 250px;
+    padding: 10px 30px;
+    /* background-color:white; */
+    /* opacity: 0.8; */
+    border-radius: 30px;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.user-msg span {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    /* background-color: rgb(247, 243, 243); */
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.user-msg.success{
+    color: rgb(20, 118, 230);
+    box-shadow: inset 0 0 10px 5px rgb(145, 192, 235),0 0 3px 1px;
+}
+.error{
+    color: rgb(255, 41, 41);
+    box-shadow: inset 0 0 10px 5px rgb(255, 26, 26),0 0 3px 1px rrgb(255, 26, 26)
+}

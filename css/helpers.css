@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    color: #ffffff;
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.column {
+    flex-direction: column;
+}
+
+/* flex helpers  */
+​
+.flex {
+    display: flex;
+}
+​
+.flex.column {
+    flex-direction: column;
+}
+​
+.flex.row {
+    flex-direction: row;
+}
+​
+.flex.wrap {
+    flex-wrap: wrap;
+}
+​
+.space-between {
+    justify-content: space-between;
+}
+​
+.justify-center {
+    justify-content: center;
+}
+​
+.justify-flex-end {
+    justify-content: flex-end;
+}
+​
+.space-around {
+    justify-content: space-around;
+}
+​
+.justify-flex-start {
+    justify-content: flex-start;
+}
+​
+.align-center {
+    align-items: center;
+}
+​
+.align-baseline {
+    align-items: baseline;
+}
+​
+.align-flex-start {
+    align-items: flex-start;
+}
+​
+.flex-grow {
+    flex-grow: 1;
+}
+​
+.icon {
+    font-size: 25px;
+    color: #005691;
+    cursor: pointer;
+    padding-top: 10px;
+}
+​
+/* bgc helpers */
+​
+.bgc0 {
+    background-color: #fafafa;
+}
+​
+.bgc1 {
+    background-color: #9df3c4;
+}
+​
+.bgc2 {
+    background-color: #b2dffb;
+}
+​
+.bgc3 {
+    background-color: #e7a4e4;
+}
+​
+.bgc4 {
+    background-color: #ffc55c;
+}
+​
+.btn {
+    cursor: pointer;
+}
+​
+/* margin */
+.mr-5{
+    margin-right: 5px;
+}

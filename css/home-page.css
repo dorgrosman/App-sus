@@ -43,7 +43,7 @@ h2.home-page-title {
        
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 
     .home-page-img-container {
        flex-direction: column;
